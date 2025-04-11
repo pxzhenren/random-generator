@@ -1,0 +1,57 @@
+<style>
+    body {
+        font-family: 'Noto Sans SC', 'Zcool Kuai Le', sans-serif; /* 使用中文字体 */
+        background-color: #fff;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #ff6f61; /* Peach color for heading */
+        font-family: 'Zcool Kuai Le', cursive; /* 使用装饰性字体 */
+    }
+    
+    textarea, input[type="number"] {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ffccbc; /* Light peach for input borders */
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    button {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ff6f61; /* Peach color for buttons */
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+        background-color: #ff5722; /* Darker peach on hover */
+        transform: scale(1.05); /* Slightly enlarge button on hover */
+    }
+
+    #output {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #fff; /* White output background */
+        border: 1px solid #ffccbc; /* Light peach for output border */
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+        color: #ff6f61; /* Peach color for output text */
+        margin: 0; /* No margin for paragraphs to reduce spacing */
+    }
+</style>
