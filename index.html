@@ -71,6 +71,9 @@
 
     <script src="script.js"></script>
 
+        <div class="container">
+        <button onclick="copyText()">Angels</button>
+    </div>
     <script>
         function copyText() {
             // Block of text to be copied
@@ -165,14 +168,13 @@
 
 <body>
     <div class="container">
-        <h1>List</h1>
-        <button onclick="copyText()">Tarot</button>
+        <button onclick="copyText2()">Tarot</button>
     </div>
 
     <script>
-        function copyText() {
+        function copyText2() {
             // Block of text to be copied
-            const textToCopy = `无名牌 - 惊讶的喜事。
+            const textToCopy2 = `无名牌 - 惊讶的喜事。
 梦 - 梦想成真的显化。
 井 - 困在卡顿的3D世界。
 花 - 会有好事显化，BBL。
@@ -434,8 +436,8 @@
 `;
             
             // Use the Clipboard API to copy the text
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                alert("Copied:\n" + textToCopy); // Alert user with confirmation
+            navigator.clipboard.writeText(textToCopy2).then(() => {
+                alert("Copied:\n" + textToCopy2); // Alert user with confirmation
             }).catch(err => {
                 alert("Failed to copy: " + err);
             });
@@ -446,13 +448,13 @@
 <body>
     <div class="container">
         <h1>List</h1>
-        <button onclick="copyText()">N Things I like to do List</button>
+        <button onclick="copyText3()">N Things I like to do List</button>
     </div>
 
     <script>
-        function copyText() {
+        function copyText3() {
             // Block of text to be copied
-            const textToCopy = `做异形页面
+            const textToCopy3 = `做异形页面
 看工具书
 看小说
 写作
@@ -776,8 +778,8 @@ auto play videos on youtube and get inspired
 `;
             
             // Use the Clipboard API to copy the text
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                alert("Copied:\n" + textToCopy); // Alert user with confirmation
+            navigator.clipboard.writeText(textToCopy3).then(() => {
+                alert("Copied:\n" + textToCopy3); // Alert user with confirmation
             }).catch(err => {
                 alert("Failed to copy: " + err);
             });
